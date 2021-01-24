@@ -11,6 +11,28 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -32,6 +54,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1nFArN27iVgM689wa09ncVEC9mj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -39,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springclound2021" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20913108" />
@@ -51,13 +76,65 @@
       <recent name="E:\gitWorkspace\DesignPatterns-Java\java-des\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="AbstractFactoryPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.design.abstractfactory.AbstractFactoryPattern" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.design.adapter.AdapterPattern" />
       <module name="DesignPatterns-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.design.abstractfactory.*" />
+          <option name="PATTERN" value="com.java.design.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactroyMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.design.factorymethod.ws.FactroyMethod" />
+      <module name="DesignPatterns-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.design.factorymethod.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.design.proxy.ws.Main" />
+      <module name="DesignPatterns-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.design.proxy.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.design.build.ws.Main" />
+      <module name="DesignPatterns-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.design.build.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.design.prototype.PrototypePattern" />
+      <module name="DesignPatterns-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.design.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractFactoryPattern" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FactroyMethod" />
+        <item itemvalue="Application.PrototypePattern" />
+        <item itemvalue="Application.AdapterPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +175,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610975662710</updated>
       <workItem from="1610975667761" duration="3373000" />
+      <workItem from="1610979145917" duration="1625000" />
+      <workItem from="1611329217882" duration="5369000" />
     </task>
     <servers />
   </component>
@@ -105,14 +188,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1610978876901" />
-    <state x="324" y="72" key="FileChooserDialogImpl" timestamp="1610978997857">
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1611333978696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="324" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610978997857" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1611333978696" />
+    <state x="324" y="72" key="FileChooserDialogImpl" timestamp="1611047493550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="72" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1611047493550" />
+    <state width="1322" height="146" key="GridCell.Tab.0.bottom" timestamp="1611334322417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611334322417" />
+    <state width="1322" height="146" key="GridCell.Tab.0.center" timestamp="1611334322417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611334322417" />
+    <state width="1322" height="146" key="GridCell.Tab.0.left" timestamp="1611334322417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611334322417" />
+    <state width="1322" height="146" key="GridCell.Tab.0.right" timestamp="1611334322417">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611334322417" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1610978999333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610978999333" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1611329218054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1611329218054" />
     <state x="107" y="57" key="new project wizard" timestamp="1610977025560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
